@@ -134,3 +134,4 @@ if st.session_state.game_over:
 st.write("---")
 
 st.markdown("© 2025 All rights reserved | Developed by PRINCEDEX")
+st.write("Contact: [ifeanyistephen003@gmail.com]")
