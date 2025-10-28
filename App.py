@@ -131,3 +131,6 @@ if st.session_state.game_over:
         if st.button("Exit Game"):
             st.session_state.show_goodbye = True
             st.rerun()
+st.write("---")
+
+st.markdown("© 2025 All rights reserved | Developed by PRINCEDEX")
