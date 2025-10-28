@@ -33,6 +33,28 @@ for key, default in {
 
 # Title
 st.title("🎯 Advanced Number Guessing Game")
+with st.expander("ℹ️ About / How to Play", expanded=True):
+    st.markdown("""
+    **Welcome to the Advanced Number Guessing Game! 🎯**
+
+    🕹️ **How to Play**
+    - Choose a **difficulty level** to start:
+        - 🟢 *Easy:* Guess a number between **1–50** with **10 attempts**
+        - 🟡 *Medium:* Guess a number between **1–100** with **7 attempts**
+        - 🔴 *Hard:* Guess a number between **1–200** with **5 attempts**
+    - Enter your guess and click **Guess**.
+    - You’ll get hints whether your guess is **too high** or **too low**.
+    - Try to guess the secret number before you run out of attempts!
+
+    🧠 **Game Features**
+    - Tracks your **wins and total games played**
+    - Option to **play again** or **exit** when done
+    - Displays your **final stats** when you quit
+    - Clean, simple Streamlit interface for smooth gameplay
+
+    💡 *Tip:* The fewer guesses you use, the sharper your guessing skills!
+    """)
+
 
 # Goodbye message section
 if st.session_state.show_goodbye:
